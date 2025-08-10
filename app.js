@@ -2,14 +2,16 @@ const { useState, useRef, useEffect } = React;
 const { Plus, Check, X, Trash2, Home, Lightbulb, Wrench, Paintbrush, ShoppingCart, Store, Package, Download, Upload, Cloud, Wifi, WifiOff } = lucide;
 
 // החליפי את הנתונים האלה עם הנתונים שלך מ-Firebase Console
+
 const firebaseConfig = {
-  apiKey: "AIzaSyD_eyNtcsPcM-npzs4ibJYTEQ3_QypdPXI",
+  apiKey: "AIzaSyD_eyNtcsPcM-npzs4IbJyTEQ3_QypdPXI",
   authDomain: "home-renovation-8567a.firebaseapp.com",
   projectId: "home-renovation-8567a",
   storageBucket: "home-renovation-8567a.firebasestorage.app",
   messagingSenderId: "566188117801",
   appId: "1:566188117801:web:f069b752251a5dcd2fb138"
 };
+
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
